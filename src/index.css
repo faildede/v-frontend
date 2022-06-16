@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background: #f6f6f6;
+}
+.back{
+  background: rgba(247, 247, 247, 1) 100%;
+}
+.back:hover{
+-webkit-box-shadow: 5px -11px 15px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 5px -11px 15px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 5px -11px 15px 0px rgba(34, 60, 80, 0.2);
+border: solid #0a84ff 1px;
+transition: all 0.3s;
+}
+.bac{
+  background: #1d1d1f;
+}
+.eee{
+  background: #0a84ff;
+}
+.inputcolor{
+  border-color: #0a84ff;
+
+}
